@@ -13,7 +13,7 @@
             android:parentActivityName=".MainActivity"
             android:label="Quiz"
             android:name=".QuizQuestionsActivity"
-            android:theme="@style/NoActionBar"
+            android:theme="@style/Theme.AndroidQuiz"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
