@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidQuiz">
         <activity
-            android:name=".MainActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Quiz"
+            android:name=".QuizQuestionsActivity"
             android:theme="@style/NoActionBar"
-            android:windowSoftInputMode="adjustResize"
-            android:exported="true">
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
